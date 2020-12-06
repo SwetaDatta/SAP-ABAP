@@ -1,0 +1,51 @@
+
+*&---------------------------------------------------------------------*
+*& Report  ZEMPLOYEE2
+*&
+*&---------------------------------------------------------------------*
+*&
+*&
+*&---------------------------------------------------------------------*
+
+REPORT  zemployee2.
+
+TABLES zemployee2.
+
+SELECT * FROM zemployee2.
+  WRITE zemployee2.
+ENDSELECT.
+
+ULINE.
+SKIP.
+
+SELECT * FROM zemployee2.
+  WRITE / zemployee2.
+ENDSELECT.
+
+ULINE.
+
+SELECT * FROM zemployee2.
+  WRITE / zemployee2.
+  WRITE /.
+ENDSELECT.
+
+ULINE.
+
+SELECT * FROM zemployee2.                   "Printing fields indi
+  WRITE / zemployee2-name.
+  WRITE / zemployee2-dob.
+  WRITE / zemployee2-pan.
+  WRITE / zemployee2-address.
+  WRITE / zemployee2-employeeid.
+ENDSELECT.
+
+ULINE.
+
+SELECT * FROM zemployee2.
+  WRITE: / zemployee2-name,         "chaining
+           zemployee2-dob,
+           zemployee2-pan,
+           zemployee2-address,
+           zemployee2-employeeid.
+ 
+ENDSELECT.
