@@ -1,5 +1,8 @@
 # SAP-ABAP
 
+SAP Full form- Systems, Applications & Products in Data Processing
+ABAP Full Form-Advanced Business Application
+
 NOTE:- SE : System Engineering. SM : System Maintenance.
 
 Most used TCode of ABAP
